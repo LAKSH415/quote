@@ -1,0 +1,35 @@
+body{
+    background-color: #D9B8C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+.elements{
+    background-color: #703D57;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow:
+    inset 0 -3em 3em #402A2C,
+    0 0 0 2px white,
+    0.3em 0.3em 1em #241715;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #241715;
+}
+h3{
+    color: #402A2C;
+}
+button{
+    background-color: #957186;
+    border-radius:0.5rem;
+    border: 2px solid black;
+    padding: 8px;
+    font-family: 'Black Ops One', system-ui;
+}
+button:hover{
+    background-color: #241715;
+    color: antiquewhite
+}
